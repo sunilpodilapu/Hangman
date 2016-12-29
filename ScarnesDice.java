@@ -1,6 +1,17 @@
 import java.util.*;
 class ScarnesDice
 {
+   System.out.println("\t\t\t-----------SCARNES DICE------------------");
+    System.out.println("\n\n");
+    System.out.println("\t\t\t------------INSTRUCTIONS-----------------");
+    System.out.println("1: This is a two player game");
+    System.out.println("2: First player starts the game");
+    System.out.println("3: The player who gets more than or equal to 100 wins the game");
+    System.out.println("4: In one turn the dice is rolled and player has two choices");
+    System.out.println("\t4.1: one he can hold his score and add this to total score");
+    System.out.println("\t4.2:He can try another chance by repetedly throw dice and increase his score");
+    System.out.println("5: If he gets one he is fired,his score in that turn becomes zero");
+    System.out.println("\t\t\t-------------------------------GOOD LUCK---------------------------");
    static int whose_move=1;
    static int ply1=0,ply2=0;
    static int limit=100;
