@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Sol {
+public class MyPApplet {
 
     public static void main(String[] args) {
         Map<Long,Long> m=new HashMap<Long,Long>();
@@ -27,6 +27,8 @@ public class Sol {
         long max=0;
         for(int i=0;i<c;i++)
             {
+				if(pq.isEmpty())
+					break;
          long k=pq.peek();
             long l=m.get(k);
             if(n<=l)
